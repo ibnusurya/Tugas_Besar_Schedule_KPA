@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+    <body>
+
+        <ui:composition template="./newTemplate.xhtml">
+
+            <ui:define name="top">
+                <!--top-->
+
+                <img src="gambars/gajah_duduk.GIF" align="left" width="65px"/>
+                <p style="font-size: 20px;">
+                    | Sekolah Teknik Elektro dan Informatika | <br/> 
+                    | STEI - ITB |<br/>                                      
+                    
+                    
+                </p>
+            </ui:define>
+
+            <ui:define name="left">
+                <!--left-->
+                <div style="font-size: 16px; font-family: verdana;"> Silahkan Click !</div>
+                <br/>
+                    
+                        <h:outputLink value="http://localhost:8080/Tugas_Besar_Schedule_KPA/faces/tampilan_depan.xhtml">
+                        <h:outputText value="HALAMAN DEPAN"/>
+                        </h:outputLink>
+                        <br/>
+                        <h:outputLink value="dosen.xhtml">
+                        <h:outputText value="DOSEN INFORMATIKA"/>
+                        </h:outputLink>
+                        <br/>
+                        <h:outputLink value="sop_pa.xhtml#">
+                        <h:outputText value="PROSEDUR PA"/>
+                        </h:outputLink>
+                        <br/>
+                        <h:outputLink value="daftar_pa.xhtml">
+                        <h:outputText value="DAFTAR PA"/>
+                        </h:outputLink>
+                
+            </ui:define>
+
+            <ui:define name="content">
+                <!--content-->
+                <p style="font-size: 13px;">
+                    <span style="font-size: 16px; font-family: arial black;">Dosen <br/>
+                    </span>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                    Dosen<br/>
+                                      
+                </p>
+            </ui:define>
+
+            <ui:define name="bottom">
+                <p style="color:brown; font-size: 11px; font-style: inherit; text-align: center;">
+                    Pengembangan Aplikasi Untuk Tujuan Pembelajaran IF5122-PPL<br/>
+                    Baik ditampilkan pada Resolusi 1024 X 800px
+                </p>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

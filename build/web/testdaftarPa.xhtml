@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Pendaftaran Penelitian</title>
+        
+    </h:head>
+
+    <h:body>
+        <h3>Registration Page</h3>
+        <h:form>
+            <h:panelGrid columns="3" columnClasses="rightalign,leftalign,leftalign">
+            <h:outputLabel value="Program Study: " for="prodi"/>
+            <h:selectOneMenu id="prodi" label="prodi" value="#{daftarBean.prodi}" >
+                <f:selectItem itemLabel="" itemValue=""/>
+                <f:selectItem itemLabel="Strata 1" itemValue="S1"/>
+                <f:selectItem itemLabel="Strata 2" itemValue="S2"/>
+                <f:selectItem itemLabel="Strata 3" itemValue="S3"/>
+                
+            </h:selectOneMenu>
+            <h:message for="prodi"/>
+            
+            <h:outputLabel value="Nama :" for="nama"/>
+            <h:inputText id="nama" label="Nama Anda" required="true" value="#{daftarBean.nama}" />
+            <h:message for="nama" />
+            
+            <h:outputLabel value="Topik Penelitian :" for="topikpa"/>
+            <h:inputText id="topikpa" label="Topik Penelitian" required="true" value="#{daftarBean.topikpa}" />
+            <h:message for="topikpa" />
+            
+            <h:outputLabel value="Pembimbing :" for="dosen"/>
+            <h:inputText id="dosen" label="Pembimbing" required="true" value="#{daftarBean.dosen}" />
+            <h:message for="dosen" />
+        
+            <h:outputLabel value="Email Address:" for="email"/>
+            <h:inputText id="email" label="Email Address" required="true" value="#{daftarBean.email}">
+            </h:inputText>
+            <h:message for="email" />
+        
+            <h:panelGroup/>
+                    <h:commandButton id="register" value="Register" action="DaftarBeanProses" />
+        </h:panelGrid>
+        </h:form>
+        </h:body>
+</html>

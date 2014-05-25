@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Tugas_Besar_Schedule_KPA">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" name="jdbc/database" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/jadwal" username="root"/>
+</Context>

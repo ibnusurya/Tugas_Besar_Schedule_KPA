@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="login.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="unsukses.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="testLogin.xhtml" x="1150" y="300" zoom="true"/>
+        <Node id="sukses.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="daftar_pa.xhtml" x="900" y="450" zoom="true"/>
+        <Node id="sop_pa.xhtml" x="900" y="300" zoom="true"/>
+        <Node id="tampilan_depan.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="error.xhtml" x="150" y="600" zoom="true"/>
+        <Node id="register.xhtml" x="150" y="750" zoom="true"/>
+        <Node id="newTemplate.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="index.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="daftarPaBean_konfirmasi.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="LoginBeanProses.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="DaftarBeanProses.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="dosen.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="welcomePrimefaces.xhtml" x="400" y="600" zoom="true"/>
+        <Node id="home.xhtml" x="424" y="58" zoom="false"/>
+        <Node id="testdaftarPa.xhtml" x="1400" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
